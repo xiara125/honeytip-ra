@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView} from 'react-native';
 
 const main = 'https://storage.googleapis.com/sparta-image.appspot.com/lecture/main.png'
-// import data from '../data.json';
+import data from '../data.json';
 import Card from '../components/Card';
 import Loading from '../components/Loading';
 import { StatusBar } from 'expo-status-bar';
